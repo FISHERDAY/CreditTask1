@@ -1,7 +1,6 @@
 package ua.training;
 
 import ua.training.controller.Controller;
-import ua.training.model.Model;
 import ua.training.view.View;
 
 public class Main {
