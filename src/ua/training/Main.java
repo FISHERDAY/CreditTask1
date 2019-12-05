@@ -10,4 +10,5 @@ public class Main {
         Controller controller = new Controller(new Model(), new View());
         controller.processUser();
     }
+
 }
