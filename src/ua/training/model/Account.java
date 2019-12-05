@@ -13,7 +13,6 @@ public class Account {
         this.moneyAmount = moneyAmount;
     }
 
-
     public boolean withdrawMonthlyPayment(int monthlyPayment) {
         if ((moneyAmount - monthlyPayment) < 0) {
             return false;
@@ -22,4 +21,5 @@ public class Account {
         }
         return true;
     }
+
 }
