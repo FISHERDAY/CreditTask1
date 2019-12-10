@@ -19,6 +19,10 @@ public enum Bank implements TextConstans {
     private final double interestRate;
     private final int maxDuration;
 
+    public int loanAmount() {return loanAmount;}
+    public double interestRate() {return interestRate;}
+    public int maxDuration() {return maxDuration;}
+
     private Bank(String name, int loanAmount, double interestRate, int maxDuration) {
         this.name = name;
         this.loanAmount = loanAmount;
